@@ -1,0 +1,1 @@
+pip install opencv-python tensorflow numpy pyttsx3 seaborn
