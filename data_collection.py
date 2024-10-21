@@ -1,4 +1,12 @@
 # data_collection.py
+# 1. Set up OpenCV for video capture and Mediapipe for hand tracking to collect hand landmark data for gesture recognition.
+# 2. Defined different modes for data collection, including live video feed and saving gestures.
+# 3. Collected landmarks from Mediapipe’s hand tracking and organized them into sequences, which represent a full gesture.
+# 4. Stored collected sequences as `.npy` files, which contain the hand gesture data (x, y, z coordinates) for each sequence.
+# 5. Used keyboard inputs to start or stop the collection process (e.g., pressing 's' to start recording a gesture and 'q' to quit).
+# 6. Displayed the current status of data collection (e.g., whether collecting or the number of sequences collected) on the live video feed using OpenCV.
+# 7. Organized the saved gesture sequences into folders based on the type of gesture being collected for better dataset management.
+# 8. Implemented real-time feedback to ensure users know when the system is actively recording or waiting for the next sequence.
 
 import os
 import cv2
