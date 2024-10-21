@@ -1,4 +1,15 @@
 # model_training.py
+# 1. Imported necessary libraries such as TensorFlow, Scikit-learn, NumPy, and Matplotlib for model building, data processing, and visualization.
+# 2. Defined constants such as SEQUENCE_LENGTH, NUM_FEATURES, and hyperparameters like EPOCHS and BATCH_SIZE for model configuration.
+# 3. Loaded datasets from NumPy `.npy` files and split them into training and validation sets using Scikit-learn's train_test_split.
+# 4. Calculated class weights to handle class imbalance, which improves model accuracy for underrepresented classes.
+# 5. Used Scikit-learn's StandardScaler to normalize the input data for better model training performance.
+# 6. Built a sequential neural network model using TensorFlow/Keras, with multiple layers to handle the input feature sequences and output classifications.
+# 7. Trained the model using the compiled architecture on the scaled training data, validating it on validation data.
+# 8. Saved the trained model and the scaler for later use in real-time recognition tasks.
+# 9. Visualized training history (accuracy and loss) to track model performance and improvements over epochs.
+# 10. Evaluated the trained model on the validation set and generated a classification report and confusion matrix to assess performance.
+# 11. Saved important model metrics and visualizations to understand the model's behavior.
 
 import os
 import numpy as np
