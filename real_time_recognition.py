@@ -1,4 +1,12 @@
 # real_time_recognition.py
+# 1. Imported essential libraries like OpenCV for video capture, TensorFlow for model loading, Mediapipe for hand landmark detection, and Scikit-learn's StandardScaler for data scaling.
+# 2. Defined a function to load the pre-trained model and scaler from disk for real-time gesture recognition.
+# 3. Initialized Mediapipe’s hand detection module to capture hand landmarks from a live webcam feed.
+# 4. For each frame captured from the webcam, processed the hand landmarks to extract key points that represent hand gestures.
+# 5. Scaled the landmark data using the loaded StandardScaler to match the format the model was trained on.
+# 6. Made predictions on the live data using the loaded TensorFlow model to recognize the current hand gesture.
+# 7. Displayed the real-time predictions on the video feed using OpenCV.
+# 8. Provided functionality to stop or pause the real-time recognition using keyboard input (e.g., pressing 'q' to quit).
 
 import cv2
 import numpy as np
