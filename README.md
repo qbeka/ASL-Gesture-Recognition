@@ -15,29 +15,6 @@ Webcam
 
 Steps
 
-Clone the Repository:
-Navigate to your desired directory and clone the project:
-
-bash
-Copy code
-git clone https://github.com/yourusername/asl-to-speech-recognition.git
-cd asl-to-speech-recognition
-Create a Virtual Environment (Optional):
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-If requirements.txt is unavailable, install manually:
-
-bash
-Copy code
-pip install numpy scikit-learn tensorflow mediapipe opencv-python matplotlib seaborn
-Data Preparation
-
 Organize your dataset as follows:
 
 css
