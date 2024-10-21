@@ -98,8 +98,6 @@ Press 'm': To change modes.
 Press 'q': To exit the application.
 Project Structure
 
-bash
-Copy code
 ASL_to_Speech_Recognition/
 ├── ASL_Data_Live/           # Live gesture sequences
 ├── ASL_Data_Images/         # Individual gesture frames
@@ -118,8 +116,6 @@ Matplotlib
 Seaborn
 Install all dependencies using:
 
-bash
-Copy code
 pip install -r requirements.txt
 Troubleshooting
 
